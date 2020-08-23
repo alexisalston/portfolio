@@ -1,0 +1,157 @@
+h1 {
+  font-weight: 900;
+  font-family: serif;
+  font-size: 6rem;
+}
+
+h2 {
+  color: #dff0ea;
+  float: right;
+  font-weight: lighter;
+  font-family: sans-serif;
+  font-size: 3rem;
+}
+
+hr {
+  border: solid #EAF6F6 6px;
+  width: 20%;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #84a9ac;
+  height: 100%;
+  padding-bottom: 1rem;
+}
+
+.white-section {
+  background-color: white;
+  margin: 0;
+}
+
+/* Nav Bar */
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.nav-item {
+  margin-left: 2rem;
+}
+
+/* Title */
+#title .container-fluid {
+  height: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.title-style {
+  margin: 0;
+}
+
+/* About Section */
+#about {
+  position: relative;
+  padding: 6rem;
+}
+
+#about .container-fluid {
+  padding: 2rem;
+}
+
+.about-box {
+  text-align: center;
+  color: #8f8f8f;
+}
+
+.about-title {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Portfolio Section */
+#portfolio .container-fluid {
+  padding: 13rem;
+}
+
+.portfolio-heading {
+  margin: 0;
+  text-align: center;
+  padding-top: 4rem;
+  float: none;
+}
+
+.portfolio-image {
+  /* border-radius: 100%; */
+  width: 50%;
+}
+
+.portfolio-text {
+  margin: 0;
+  text-align: center;
+  padding-bottom: 4rem;
+  color: #000;
+}
+
+.work-buttons {
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+/* Resume Section */
+.card {
+  margin-top: 20px;
+}
+
+/* Contact Section */
+.grey-section {
+  background-color: #D3D3D3;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+.contact-title {
+  color: #000;
+  text-align: center;
+  float: none;
+}
+
+.contact-title.contact-me {
+  padding-top: 5rem;
+}
+
+.white-section.contact-me {
+  padding-bottom: 5rem;
+}
+
+.contact-box {
+  padding: 10rem;
+}
+
+.form-row {
+  padding-top: 5rem;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  padding-top: 2rem;
+  margin: 0;
+}
+
+i {
+  padding: 2rem;
+}

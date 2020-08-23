@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico">
+
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/86197c8976.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <title>Alexis Alston</title>
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="#home">A.</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#about">About</a>
+            <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+            <a class="nav-item nav-link" href="resume.html">Resume</a>
+            <a class="nav-item nav-link" href="#contact">Contact Me</a>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+      <section class="title">
+        <header class="jumbotron text-center title-style" id="home">
+          <h1 class="display-4">I'm Alexis,</h1>
+          <h4>a developer from Michigan.</h4>
+          <hr>
+          <i class="fab fa-html5 fa-4x"></i>
+          <i class="fab fa-css3-alt fa-4x"></i>
+          <i class="fab fa-js fa-4x"></i>
+          <i class="fab fa-bootstrap fa-4x"></i>
+          <hr>
+        </header>
+      </section>
+
+      <!-- About -->
+
+      <section class="white-section" id="about">
+        <div class="container-fluid">
+
+          <div class="row">
+            <div class="about-box col-lg">
+              <i class="icon fas fa-road fa-4x"></i>
+              <h3 class="about-title">Journey</h3>
+              <p>I am a self taught full stack web developer.</p>
+            </div>
+            <div class="about-box col-lg">
+              <i class="icon fas fa-map-marked-alt fa-4x"></i>
+              <h3 class="about-title">Location</h3>
+              <p>I am from Michigan but I currently live in Springfield, Missouri.</p>
+            </div>
+            <div class="about-box col-lg">
+              <i class="icon fas fa-heart fa-4x"></i>
+              <h3 class="about-title">Skills</h3>
+              <p>HTML, CSS, Javascript, Bootstrap, jQuery.</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio -->
+
+      <section class="colored-section" id="portfolio">
+
+        <h2 class="portfolio-heading">My Work</h2>
+
+        <div id="portfolio-carousel" class="carousel slide" data-ride="false">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active container-fluid text-center">
+              <img class="portfolio-image" src="images/appmaker.png" alt="">
+              <em>App Maker</em>
+            </div>
+
+            <div class="carousel-item container-fluid text-center">
+              <img class="portfolio-image" src="images/coastalapp.png" alt="">
+              <em>Coastal University App</em>
+            </div>
+
+            <div class="carousel-item container-fluid text-center">
+              <img class="portfolio-image" src="images/trendycouches.png" alt="">
+              <em>Trendy Couches</em>
+            </div>
+
+            <div class="carousel-item container-fluid text-center">
+              <img class="portfolio-image" src="images/coastal.png" alt="">
+              <em>Coastal University Website</em>
+            </div>
+
+          </div>
+
+          <a class="carousel-control-prev" href="#portfolio-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+
+          <a class="carousel-control-next" href="#portfolio-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+
+        </div>
+        <div class="text-center py-5">
+          <a href="https://alexisalston.github.io/appmaker/"><button type="button" class="btn btn-light btn-lg work-buttons mb-5">App Maker Website</button></a>
+          <a href="https://alexisalston.github.io/coastaluniversityapp/"><button type="button" class="btn btn-light btn-lg work-buttons mb-5">Coastal Univ. App</button></a>
+          <a href="https://alexisalston.github.io/trendycouches/"><button type="button" class="btn btn-light btn-lg work-buttons mb-5">Trendy Couches</button></a>
+          <a href="https://alexisalston.github.io/coastaluniversity/"><button type="button" class="btn btn-light btn-lg work-buttons mb-5">Coastal U Website</button></a>
+        </div>
+      </section>
+
+      <!-- Contact Form -->
+      <section class="white-section contact-me" id="contact">
+
+        <h2 class="contact-title contact-me">Contact Me</h2>
+
+        <form>
+          <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <label for="validationServer01">First name</label>
+              <input type="text" class="form-control" id="validationServer01" value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="validationServer02">Last name</label>
+              <input type="text" class="form-control" id="validationServer02" value="" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Email</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+          </div>
+          <form class="was-validated">
+            <div class="mb-3">
+              <label for="validationTextarea">Write message here:</label>
+              <textarea class="form-control" id="validationTextarea" placeholder="Message Required" required></textarea>
+              <div class="valid-feedback">
+                Please enter a message in the textarea.
+              </div>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </form>
+      </section>
+      <!-- Contact Info Section -->
+      <section class="grey-section" id="contact-info">
+        <div class="container-fluid text-center">
+          <h2 class="contact-title">Contact Info</h2>
+          <div class="row justify-content-center">
+            <div class="contact-box col-auto">
+              <table class="table table-responsive">
+                <tr>
+                  <th>Name</th>
+                  <td>Alexis Alston</td>
+                </tr>
+                <tr>
+                  <th>Phone</th>
+                  <td>
+                    <a href="tel:+14173240885">(417) 324-0885</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Email</th>
+                  <td>
+                    <a href="mailto:alexis718@live.missouristate.edu">alexis718@live.missouristate.edu</a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer class="colored-section" id="footer">
+
+
+    <!-- <i class="fab fa-twitter social-icon"></i> -->
+    <i class="fab fa-github-alt social-icon"></i>
+    <!-- <i class="fab fa-instagram social-icon"></i> -->
+    <i class="fab fa-linkedin social-icon"></i>
+    <i class="fab fa-stack-overflow social-icon"></i>
+    <p>© Copyright 2020 Alexis Alston</p>
+  </footer>
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- JavaScript -->
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>
